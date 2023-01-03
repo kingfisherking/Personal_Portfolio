@@ -1,3 +1,31 @@
-h1{
-    color:darkolivegreen;
+body{
+    width: 75%;
+    margin:auto;
+    font-size: 1.6rem;
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ul{
+    list-style: none; 
+    display: flex;
+}
+
+li{
+    margin-right: 30px;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about img{
+    border-radius: 5%;
+}
+#soft{
+    display: none;
 }
